@@ -1,0 +1,276 @@
+/* 1200px */
+@media (max-width: 76em) {
+
+
+  .hero-img {
+    width: 35rem;
+    height: 27.22rem;
+  }
+
+  .hero-name {
+    font-size: 9rem;
+  }
+
+  .heading_1 {
+    font-size: 9rem;
+  }
+
+  .paragraph-text {
+    padding-left: 4rem;
+  }
+  .hero-box {
+    padding-left: 7rem;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 12rem;
+  }
+  .footer-main-mid {
+    padding-left: 0rem;
+  }
+
+  .footer-main-rhs {
+    grid-column: 1 / 4;
+    max-width: 44rem;
+    justify-self: center;
+    padding: 7rem 0;
+  }
+
+  .footer-email-text {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .footer-container {
+    padding-top: 15rem;
+    padding-bottom: 0rem;
+  }
+  .input_name::placeholder,
+  .input_email::placeholder {
+    text-align: center;
+  }
+
+  .footer-about {
+    display: inline-block;
+    justify-self: center;
+  }
+  .footer-projects {
+    justify-self: end;
+  }
+}
+
+@media (max-width: 65em) {
+  .section-hero {
+    padding: 12rem 8rem;
+    padding-bottom: 22rem;
+  }
+  .hero-name {
+    font-size: 8rem;
+  }
+
+  .heading_1 {
+    font-size: 8rem;
+  }
+
+  .paragraph-text {
+    padding-left: 4rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .test-picture-container img {
+    height: 28rem;
+  }
+  .heading_1 {
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 58em) {
+  .section-projects {
+    padding: 12rem 8rem;
+  }
+
+  .section-hero {
+    padding-bottom: 12rem;
+  }
+  .hero-name {
+    font-size: 7rem;
+    float: none;
+    margin-top: 6rem;
+  }
+  .hero-img {
+    width: 45rem;
+    height: 35rem;
+    border-radius: 1rem;
+  }
+  .hero-box {
+    padding-left: 0;
+  }
+
+  .main-nav-logo,
+  .main-nav-email,
+  .higher-res {
+    display: none;
+  }
+
+  .lower-res {
+    display: block;
+  }
+  .footer-list {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 50em) {
+  .section-projects {
+    padding: 12rem 8rem;
+  }
+  .test-picture-container img {
+    height: 23rem;
+  }
+
+  .heading_1 {
+    font-size: 5.6rem;
+  }
+  .heading_2 {
+      font-size: 1.8rem;
+  }
+
+  .paragraph-text {
+      text-indent: 4rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      line-height: 2.2rem;
+    }
+
+  .hero-img {
+    width: 75%;
+    max-height: 55rem;
+    border-radius: 1rem;
+  }
+  .hero-name {
+    font-size: 5rem;
+    margin-top: 4rem;
+  }
+  .test-picture-container img:hover {
+      transform: none;
+    }
+
+  .gallery-caption {
+    font-size: 1.6rem;
+  }
+  .footer-main {
+    padding-top: 8rem;
+    display: block;
+  }
+
+  .footer-list {
+    gap: 2rem;
+    align-items: center;
+  }
+  .social-media {
+    align-items: center;
+  }
+  .footer-list.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10rem;
+  }
+  .footer-about {
+    display: block;
+    text-align: center;
+  }
+  .footer-projects {
+    display: block;
+    text-align: center;
+  }
+  .footer-container {
+    padding: 0;
+  }
+
+  .footer-main-rhs {
+    margin: 4rem auto;
+    display: block;
+    text-align: center;
+  }
+
+  .input_name {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 40em) {
+  .section-projects {
+    padding: 8rem 4rem;
+  }
+
+  .section-hero{
+      padding: 12rem 4rem;
+  }
+
+  .heading_1 {
+      font-size: 5.2rem;
+    }
+
+    .section-projects{
+      padding:  6rem 4rem;
+      padding-bottom: 8rem;
+    }
+    .heading_2 {
+      font-size: 1.3rem;
+  }
+
+  .test-picture-container img {
+      height: 15rem;
+    }
+    .gallery-caption {
+      font-size: 1.3rem;
+    }
+  .footer-main {
+    padding: 8rem 4rem;
+  }
+  .footer-main-rhs {
+    margin: 4rem auto;
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+  .footer-list.social-media {
+    margin-bottom: 6rem;
+  }
+
+  .sticky-test {
+      display: inline-block
+
+  }
+  .main-nav-list {
+      justify-content: space-around;
+      margin-top: 4.3rem
+
+    }
+}
+
+
+@media (max-width: 30em) {
+
+      .heading_1 {
+            font-size: 4.2rem;
+          }
+      .hero-name {
+            font-size: 3.6rem;
+            font-weight: 700;
+            float: none;
+            margin-top: 4rem;
+          }
+          .paragraph-text {
+            padding-left: 0;
+          }
+          .section-hero{
+            padding: 6rem 4rem;
+        }
+
+        .gallery-caption {
+            font-size: 1.1rem;
+          }
+}

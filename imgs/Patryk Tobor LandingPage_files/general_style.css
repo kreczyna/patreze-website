@@ -1,0 +1,103 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+1.618 GOLDEN RATIO
+
+- Font sizes (px)
+17.942rem
+11.089rem
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1rem
+0.618rem
+0.382rem
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+ */
+:root {
+  --color-primary: #222;
+  --color-primary-darker: #222a2f;
+  --color-primary-button: #333f47;
+  --color-primary-button-highlight: orange;
+  --text-color-primary: #fff;
+  --text-color-primary-trans: #ffffff80;
+  --color-highlight-primary: #ffffff26;
+  --color-modal: rgba(18, 22, 25, 0.95);
+}
+
+/* 
+--- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06 BORDER-RADIUS
+
+Default: 9px
+Medium: 11px
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 / 160
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #222;
+  background-color: #f5f5f5;
+}
+.heading_1 {
+  font-size: 11.089rem;
+  margin-bottom: 16rem;
+}
+.heading_2 {
+  font-size: 2.618rem;
+  font-weight: 600;
+  padding-top: 16rem;
+  padding-bottom: 1.4rem;
+}
+.paragraph-text {
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 2rem;
+  text-indent: 100rem;
+  text-align: right;
+  margin-bottom: 8rem;
+}
+
+.section-margin {
+  margin-bottom: 32rem;
+  padding: 0 8rem;
+  background-color: #f5f5f5;
+}

@@ -1,0 +1,94 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+1.618 GOLDEN RATIO
+
+- Font sizes (px)
+17.942rem
+11.089rem
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1rem
+0.618rem
+0.382rem
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+ */
+
+
+/* 
+--- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06 BORDER-RADIUS
+
+Default: 9px
+Medium: 11px
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 / 160
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--color-primary)
+}
+
+.heading_1 {
+  font-size: 11.089rem;
+  margin-bottom: 2rem;
+}
+.heading_2 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 3.6rem;
+}
+.paragraph-text {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  text-indent: 30em;
+  text-align: right;
+  margin-bottom: 8rem;
+  padding-left: 7rem;
+}
+
+.header-help-div {
+
+  width: 40rem;
+}
